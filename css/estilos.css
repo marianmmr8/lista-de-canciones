@@ -1,0 +1,52 @@
+*{
+    margin:0 ;
+    padding:10px ;
+    box-sizing: 0;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    color: black;
+
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 520px;
+    margin:2rem auto;
+    padding: 0 1rem;
+
+}
+.titulo{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font: bolder;
+        color:black;
+
+}
+#contador{
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: aquamarine;
+}
+
+label{
+    display: block;
+    margin-top: 1 rem;
+font-weight: bold;
+}
+input{
+    font-size: 1.1rem;
+    padding: 0.4rem;
+}
+
+#lista li{
+    padding: 0.3rem 0;
+}
+
+#lista button{
+    margin-left: 0.5rem;
+}
+#mensaje {
+font-style: italic;
+}
